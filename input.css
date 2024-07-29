@@ -1,0 +1,19 @@
+@tailwind base;
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl underline underline-offset-4 decoration-violet-500;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply underline underline-offset-4 decoration-violet-500;
+}
+.keyword {
+  @apply font-bold bg-violet-100 text-violet-500 px-1 w-fit;
+}
+
+@tailwind components;
+@tailwind utilities;
